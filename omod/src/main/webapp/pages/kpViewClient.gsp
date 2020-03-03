@@ -14,8 +14,8 @@
 		<table cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tr>
 				<td width="30%" valign="top">
-					${ ui.includeFragment("kenyaemr", "kpClient/patientSummary", [ patient: currentPatient ]) }
-					${ ui.includeFragment("kenyaemr", "kpClient/patientAllergiesAndChronicIllnesses", [ patient: currentPatient ]) }
+					${ ui.includeFragment("kenyaemr", "kpClient/clientSummary", [ patient: currentPatient ]) }
+					${ ui.includeFragment("kenyaemr", "kpClient/clientAllergiesAndChronicIllnesses", [ patient: currentPatient ]) }
 					${ ui.includeFragment("kenyaemr", "program/programHistories", [ patient: currentPatient, showClinicalData: true ]) }
 				</td>
 				<td width="55%" valign="top" style="padding-left: 5px">

@@ -2,73 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4acfeafa-c4a5-4362-989a-d6d1194d6770" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/kpClient/ClientAllergiesAndChronicIllnessesFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/kpClient/ClientSummaryFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramCarePanelsFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramCompletionFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramEnrollmentFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramHistoriesFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramHistoryFragmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kp/clientContactForm.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kp/socialStatus.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kpClient/clientAllergiesAndChronicIllnesses.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kpClient/clientSummary.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kpClient/currentVitals.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kpClient/kpClientSearchForm.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/kpClient/kpClientSearchResults.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/program/programCarePanels.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/fragments/program/programHistories.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/pages/kpSearch.gsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openmrs_api_openmrs_api_tests_1_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openmrs_web_openmrs_web_tests_1_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/ClientContactFormFragmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/EditRelationshipPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpSearchPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpViewClientPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/pages/editRelationship.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omod/src/main/webapp/pages/kpSearchPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/kenyakeypop-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/kenyakeypop-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/KenyakeypopActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/KenyakeypopActivator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/KenyakeypopConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/KenyakeypopConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/api/KenyakeypopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/api/KenyakeypopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/api/dao/KenyakeypopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/api/dao/KenyakeypopDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/api/impl/KenyakeypopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyakeypop/api/impl/KenyakeypopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/moduleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyakeypop/KenyakeypopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyakeypop/KenyakeypopServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyakeypop/dao/KenyakeypopDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyakeypop/dao/KenyakeypopDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/moduleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/kenyakeypop-api-1.0.0-SNAPSHOT-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/kenyakeypop-api-1.0.0-SNAPSHOT-tests.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/kenyakeypop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/kenyakeypop-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-java-formatter-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-java-formatter-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kenyakeypop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kenyakeypop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/kenyakeypop-omod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/kenyakeypop-omod.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/extension/html/AdminList.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/extension/html/AdminList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/web/controller/KenyakeypopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/web/controller/KenyakeypopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/resources/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/main/resources/webModuleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/resources/webModuleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/test/java/org/openmrs/module/kenyakeypop/AdminListExtensionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/test/java/org/openmrs/module/kenyakeypop/AdminListExtensionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/classes/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/classes/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/moduleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/classes/webModuleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/classes/webModuleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT-tests.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT.omod" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT.omod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/lib/kenyakeypop-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/lib/kenyakeypop-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/moduleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/webModuleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/kenyakeypop-1.0.0-SNAPSHOT/webModuleApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/maven-java-formatter-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-java-formatter-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/omod/target/" />
@@ -89,23 +30,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gsp" value="10" />
-          <entry key="java" value="10" />
+          <entry key="gsp" value="14" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="GSP" value="10" />
-          <entry key="JAVA" value="10" />
+          <entry key="GSP" value="14" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
+          <entry key="gsp" value="9" />
+          <entry key="java" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="GSP" value="9" />
+          <entry key="JAVA" value="56" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -114,89 +59,73 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/program/programCarePanels.gsp">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/kp/socialStatus.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/kpClient/currentVitals.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="-17">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/kp/socialStatus.gsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramCarePanelsFragmentController.java">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/ClientContactFormFragmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/kpClient/ClientSummaryFragmentController.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/kpClient/ClientAllergiesAndChronicIllnessesFragmentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
               <folding>
-                <element signature="e#2050#2058#0" expanded="true" />
-                <element signature="e#2130#2139#0" expanded="true" />
-                <element signature="e#2368#2382#0" expanded="true" />
-                <element signature="e#2434#2448#0" expanded="true" />
+                <element signature="e#2031#2045#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramHistoriesFragmentController.java">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/editRelationship.gsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/EditRelationshipPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="66">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramEnrollmentFragmentController.java">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/patientProfile.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="967">
+              <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramCompletionFragmentController.java">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/ProgramHistoryFragmentController.java">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpViewClientPageController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/kpSearchPageController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpSearchPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="127">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -218,6 +147,14 @@
         <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/client/PatientAllergiesAndChronicIllnessesFragmentController.java" />
         <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/client/ClientAllergiesAndChronicIllnessesFragmentController.java" />
         <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/kpClient/ClientAllergiesAndChronicIllnessesFragmentController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/SocialStatusFragmentController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/registration/EditRelationshipPageController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpViewClientPageController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/pages/clinician/kpSearchPageController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/clinician/kpSearchPageController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpSearchPageController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/ClientContactFormFragmentController.java" />
       </list>
     </option>
   </component>
@@ -228,8 +165,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="width" value="1825" />
+    <option name="x" value="1585" />
+    <option name="width" value="1628" />
     <option name="height" value="1715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -308,6 +245,39 @@
               <item name="omod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openmrs-module-kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="omod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="kp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openmrs-module-kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="omod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openmrs-module-kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="omod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,6 +288,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openmrs-module-kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="omod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="kp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openmrs-module-kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="omod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="kpClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openmrs-module-kenyakeypop" type="462c0819:PsiDirectoryNode" />
+              <item name="omod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kenyakeypop" type="b2602c69:ProjectViewProjectNode" />
@@ -644,22 +644,29 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583238986529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583242527622" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\pages" />
       <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\fragments" />
       <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\fragments\kpClient" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.openmrs.module.kenyakeypop.page.controller.clinician" />
+      <recent name="pages.clinician" />
+      <recent name="org.openmrs.module.kenyakeypop.page.controller" />
+      <recent name="org.openmrs.module.kenyakeypop.page.controller.registration" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\pages\registration" />
+      <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\java\org\openmrs\module\kenyakeypop\fragment\controller\program" />
       <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\fragments" />
       <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\fragments\kpClient" />
       <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\java\org\openmrs\module\kenyakeypop\fragment\controller\program\patient" />
-      <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\java\org\openmrs\module\kenyakeypop\fragment\controller" />
-      <recent name="C:\Users\test\IdeaProjects\OpenMRS_Project\Kenya_EMRGreencard\openmrs-module-kenyakeypop\omod\src\main\webapp\fragments\program" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -684,27 +691,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583234234638</updated>
-      <workItem from="1583234257847" duration="4007000" />
+      <workItem from="1583234257847" duration="7741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4007000" />
+    <option name="totallyTimeSpent" value="7741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="730" height="686" extended-state="0" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39434522" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24615385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2072072" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4822064" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
@@ -738,9 +745,6 @@
           <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/kpSearch.gsp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -835,8 +839,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/kp/socialStatus.gsp">
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/socialStatus.gsp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/kp/socialStatus.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpViewClientPageController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/kpSearchPageController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/kpSearchPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/page/controller/EditRelationshipPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/editRelationship.gsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/patientProfile.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="967">
+          <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/kpViewClient.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/SocialStatusFragmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" column="127" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/kenyakeypop/fragment/controller/program/kp/ClientContactFormFragmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#2031#2045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
